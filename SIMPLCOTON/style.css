@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  background-color: #FDF8F2;
+  font-family: Roboto;
+  text-align: center;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-size: 45px;
+  font-family: Roboto, Arial, sans-sherif;
+  text-shadow: 1px 1px #7A7A7A;
+}
+header{ 
+  margin: auto; 
+  vertical-align: middle;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+p{
+	text-align: center;
+	font-size: 25px;
+}
+
+#container{
+	display: flex; 
+	justify-content: center;   
+	position: relative;
+	height: auto;
+}
+
+.photo1{
+	width: 300px;
+	border: solid;
+}
+
+.photo2{
+	width: 300px;
+	margin-left: 100px;
+	border: solid;
+}
+
+#footer {
+	display: table-row;
+    position: fixed;
+    bottom: 0;
+    background-color: #686868;
+    height: 150px;
+  	color: white;
+  	width: 100%;
+  	margin-top: 30px;
+}
+
+#copyright{
+  float:right;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.text1{
+
+	font-size: 20px;
+}
+
+.text2{
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+@keyframes movemydiv {
+    from {
+        transform: translateX(-350px);
+    }
+
+    30% {
+        transform: translateX(-100px);
+    }
+
+    60% {
+        transform: translateX(50px);
+    }
+  
+}
+
+
+.element1
+{
+    animation: movemydiv 2s steps(2);
+}
+
+@keyframes movemydiv1 {
+    from {
+        transform: translateX(300px);
+    }
+
+    30% {
+        transform: translateX(100px);
+    }
+
+    60% {
+        transform: translateX(-50px);
+    }
+  
+}
+
+.element2
+{
+    animation: movemydiv1 2s steps(2);
+}
